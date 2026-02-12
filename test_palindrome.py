@@ -5,5 +5,3 @@ def test_true():
 
 def test_false():
     assert palindrome.is_palindrome("hello") is False
-
-
