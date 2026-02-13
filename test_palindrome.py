@@ -1,5 +1,5 @@
-from palindrome import is_palindrome
-
-is_palindrome("Able was I ere I saw Elba")  # True
-is_palindrome("toronto")                   # False
-
+import palindrome
+def test_true():
+    assert palindrome.is_palindrome("madam") is True
+def test_false():
+    assert palindrome.is_palindrome("hello") is False
