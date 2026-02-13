@@ -1,5 +1,5 @@
 import palindrome
 def test_true():
-    assert palindrome.is_palindrome("madam") is True
+    assert palindrome.is_palindrome("laval") is True
 def test_false():
-    assert palindrome.is_palindrome("hello") is False
+    assert palindrome.is_palindrome("toronto") is False
